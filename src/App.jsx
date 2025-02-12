@@ -1,7 +1,20 @@
+import Authenticate from "./components/Authenticate";
+import SignUpForm from "./components/SignUpForm";
+import './App.css'
+export default function App() {
+  return (
+    <>
+      <Authenticate />
+      <SignUpForm />
+    </>
+  );
+}
+
+
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-// import './App.css'
+
 
 // function App() {
 //   const [count, setCount] = useState(0)
