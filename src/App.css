@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+label {
+  height: 40px;
+  width: 300px;
+  padding: 2px;
+  margin: 2px;
+  color: darkblue;
+}
+form {
+  border: 1px solid white;
+  display: flexbox;
+  background-color: gray;
+ 
+}
+button {
+  background-color: lightgreen;
+  color: black;
+  display: flexbox;
+}
